@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <GridLayout
+        android:id="@+id/grid_layout_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rowCount="3"
@@ -15,70 +16,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent">
-
-        <ImageView
-            android:id="@+id/box_0"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
-        <ImageView
-            android:id="@+id/box_1"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
-        <ImageView
-            android:id="@+id/box_2"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
-        <ImageView
-            android:id="@+id/box_3"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
-        <ImageView
-            android:id="@+id/box_4"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
-        <ImageView
-            android:id="@+id/box_5"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
-        <ImageView
-            android:id="@+id/box_6"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
-        <ImageView
-            android:id="@+id/box_7"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
-        <ImageView
-            android:id="@+id/box_8"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="8dp" />
-
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
